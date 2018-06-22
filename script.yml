@@ -1,0 +1,7 @@
+---
+- name: Running a script
+  hosts: '{{ target }}'
+  tasks:
+  - name: Gimme dat script
+    script: '{{ scrpt }}' 
+
